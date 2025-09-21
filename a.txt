@@ -1,0 +1,18 @@
+f strings:
+
+In Python, we can create strings that contain dynamic values with the f-string syntax.
+
+num_bananas = 10
+bananas = f"You have {num_bananas} bananas"
+print(bananas)
+# You have 10 bananas
+
+Add an f to the start of quotes to create an f-string: f"this is easy!"
+Use curly brackets {} around a variable to interpolate (put) its value into the string.
+
+example:
+
+name = "Arka"
+age = 20
+
+print (f"My name is {name} and my age is {age}")
